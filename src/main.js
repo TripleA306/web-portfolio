@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import App from './App.vue'    //Imports the App Vue component.
+import App from './App.vue' //Imports the App Vue component.
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 import Vuelidate from 'vuelidate';
 import 'bootstrap/dist/css/bootstrap.css' //import Bootstrap css files
@@ -9,6 +9,11 @@ import VueAxios from 'vue-axios'
 import axios from 'axios'
 //Using vue moment to format dates
 import moment from 'moment';
+
+//Components
+import home from './components/Home.vue'
+import resume from './components/Resume.vue'
+import portfolio from './components/Portfolio.vue'
 
 Vue.use(moment);
 Vue.use(VueAxios,axios);
@@ -21,7 +26,7 @@ Vue.use(IconsPlugin); // Install IconsPlugin to be used for Bootstrap classes
 //Specifying global variables used for axios calls
 Vue.store = Vue.prototype.apiURLBase = 'http://localhost:5002/api/';
 
-//Declare a globaly available function to standardize our date functions
+//Declare a globaly available function to standardize date functions
 Vue.filter('formatDate', function (value) {
   if (value){
     return moment(String(value)).format('MMMM DD, YYYY');
@@ -34,17 +39,14 @@ Vue.filter('formatDate', function (value) {
 Vue.config.productionTip = false;
 
 const routes = [
-  // {path: '/', component: AdminHomePage},
-  // {path: '/home', component: AdminHomePage},
-  // {path: '/login', component: AdminLoginPage},
-  // {path: '/regions', component: AdminRegionPage},
-  // {path: '/routes', component: AdminRoutePage},
-  // {path: '/subscribers', component: AdminSubscriberPage},
-  // {path: '/login', component: AdminLoginPage}
+  {path: '/', component: home},
+  {path: '/resume', component: resume},
+  {path: '/portfolio', component: portfolio},
 ];
 
 const router = new VueRouter({
-  routes
+  routes,
+  //mode: 'history' //might break stuff later
 });
 
 new Vue({

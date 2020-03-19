@@ -1,7 +1,16 @@
 <template>
   <b-container>
-      <h1>Welcome to Aarons Home Page</h1>
-      <p>This looks fairly empty....</p>
+      <b-navbar>
+          <b-navbar-brand tag="h1">Aaron Atkinson</b-navbar-brand>
+          <b-navbar-nav>
+              <b-nav-item to="/">Home</b-nav-item>
+              <b-nav-item to="/resume">Resume</b-nav-item>
+              <b-nav-item to="/portfolio">Portfolio</b-nav-item>
+          </b-navbar-nav>
+      </b-navbar>
+      <transition name="fade" mode="out-in">
+         <router-view></router-view>
+      </transition>
   </b-container>
 </template>
 
@@ -20,6 +29,9 @@ export default {
         }
     },
     methods:{
+      openHomePage: function(){
+        this.$router.push('home');
+      },
 
     },
     computed:{
@@ -41,18 +53,6 @@ export default {
 </script>
 
 <style>
-#logoHeaderDiv
-{
-    flex-direction: column;
-    display: inline-flex;
-    align-items: center;
-}
-
-#logo_Cans4Cosmo
-{
-    flex: 2;
-    width: 20%;
-}
 
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
@@ -61,25 +61,17 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+    overflow: hidden;
+    width: 100vw;
 }
 
-.networkError
-{
-    color: red;
-    font-size: 1.5rem;
+
+.fade.enter, .fade-leave-to{
+    opacity: 0;
+    transform: translateX(2em);
+
 }
-
-#btnShowAll
-{
-
-    background-color: white;
-    color: black;
+.fade-enter-active, .fade-leave-active {
+    transition: all .3s ease;
 }
-
-#btnShowAll.active
-{
-    background-color: dodgerblue;
-    color: white;
-}
-
 </style>
