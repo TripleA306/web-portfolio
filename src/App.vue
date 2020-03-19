@@ -1,7 +1,7 @@
 <template>
   <b-container>
       <b-navbar>
-          <b-navbar-brand tag="h1">Aaron Atkinson</b-navbar-brand>
+          <b-navbar-brand tag="h1"  >Aaron Atkinson</b-navbar-brand>
           <b-navbar-nav>
               <b-nav-item to="/">Home</b-nav-item>
               <b-nav-item to="/resume">Resume</b-nav-item>
@@ -9,8 +9,9 @@
           </b-navbar-nav>
       </b-navbar>
       <transition name="fade" mode="out-in">
-         <router-view></router-view>
+            <router-view class="routerView"/>
       </transition>
+
   </b-container>
 </template>
 
@@ -65,13 +66,18 @@ export default {
     width: 100vw;
 }
 
-
-.fade.enter, .fade-leave-to{
-    opacity: 0;
-    transform: translateX(2em);
-
+.routerView{
+    margin-right: 80px;
+    margin-left: 80px;
 }
+
+
+
 .fade-enter-active, .fade-leave-active {
-    transition: all .3s ease;
+    transition: opacity .3s ease;
+}
+.fade-enter, .fade-leave-to
+    /* .component-fade-leave-active below version 2.1.8 */ {
+    opacity: 0;
 }
 </style>
