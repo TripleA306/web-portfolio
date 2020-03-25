@@ -14,6 +14,10 @@ import moment from 'moment';
 import home from './components/Home.vue'
 import resume from './components/Resume.vue'
 import portfolio from './components/Portfolio.vue'
+import cans4cosmoproject from './components/projects/Cans4CosmoProject.vue'
+import cadcaminvaders from './components/projects/CadCamInvaders.vue'
+import fitnesstracker from './components/projects/FitnessTracker.vue'
+import opponentmatcher from './components/projects/OpponentMatcher.vue'
 
 Vue.use(moment);
 Vue.use(VueAxios,axios);
@@ -42,6 +46,10 @@ const routes = [
   {path: '/', component: home},
   {path: '/resume', component: resume},
   {path: '/portfolio', component: portfolio},
+  {path: '/portfolio/cans4cosmoproject', component: cans4cosmoproject},
+  {path: '/portfolio/cadcaminvaders', component: cadcaminvaders},
+  {path: '/portfolio/fitnesstracker', component: fitnesstracker},
+  {path: '/portfolio/opponentmatcher', component: opponentmatcher},
 ];
 
 const router = new VueRouter({
