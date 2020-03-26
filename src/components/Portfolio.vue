@@ -1,13 +1,17 @@
 <template>
     <b-container fluid class="">
-        <b-jumbotron header="Portfolio"/>
+        <b-jumbotron header="Portfolio" class="shadow-sm "/>
         <p>Here is all of the stuff i worked on</p>
-        <b-row class="mb-3">
-        <b-card style="max-width: 20rem"  v-for="pj in projects" v-bind:key="pj.id" >
-            <b-card-img style="max-width: 10em" :src="pj.image"></b-card-img>
-            <b-card-title>{{pj.name}}</b-card-title>
-            <b-card-text>{{pj.description}}</b-card-text>
-            <b-button v-bind:to="pj.title" variant="primary">Details</b-button>
+        <b-row class="mb-2" align-h="between" >
+        <b-card style="max-width: 20rem"  v-for="pj in projects" v-bind:key="pj.id" class="shadow" >
+            <b-media>
+                <template v-slot:aside>
+                    <b-img rounded="left" fluid-grow style="max-width: 10em" :src="pj.image"></b-img>
+                </template>
+                <b-card-title>{{pj.name}}</b-card-title>
+                <b-card-text>{{pj.description}}</b-card-text>
+                <b-button v-bind:to="pj.title" variant="primary">Details</b-button>
+            </b-media>
         </b-card>
         </b-row>
     </b-container>
@@ -71,5 +75,6 @@
 </script>
 
 <style scoped>
+
 
 </style>

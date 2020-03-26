@@ -1,6 +1,6 @@
-<template>
-  <b-container>
-      <b-navbar>
+<template >
+  <b-container class="cool" >
+      <b-navbar class="cool">
           <b-navbar-brand tag="h1"  >Aaron Atkinson</b-navbar-brand>
           <b-navbar-nav>
               <b-nav-item to="/">Home</b-nav-item>
@@ -69,6 +69,11 @@ export default {
 .routerView{
     margin-right: 80px;
     margin-left: 80px;
+}
+.cool{
+
+    background-color: lightgrey;
+    border-radius: 4px ;
 }
 
 

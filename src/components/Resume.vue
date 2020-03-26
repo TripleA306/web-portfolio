@@ -1,10 +1,10 @@
 <template>
-    <b-container>
-        <b-jumbotron header="Resume"></b-jumbotron>
-        <b-row>
+    <b-container fluid>
+        <b-jumbotron header="Resume" class="shadow-sm "></b-jumbotron>
+        <b-row >
             <b-col col >
                 <h1>Skills</h1>
-                <b-card v-for="skill in skills" v-bind:key="skill.id">
+                <b-card v-for="skill in skills" v-bind:key="skill.id" class="shadow-sm ">
                     <b-card-title>{{skill.name}}</b-card-title>
                     <b-card-text>
                         <ul v-for="detail in skill.info" v-bind:key="detail">
@@ -15,7 +15,7 @@
             </b-col>
             <b-col col >
                 <h1>Education</h1>
-                <b-card v-for="edu in education" v-bind:key="edu.id">
+                <b-card v-for="edu in education" v-bind:key="edu.id" class="shadow-sm ">
                     <b-card-sub-title>{{edu.year}}</b-card-sub-title>
                     <b-card-title>{{edu.course}}</b-card-title>
                     <b-card-sub-title>{{edu.where}}</b-card-sub-title>
