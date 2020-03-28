@@ -72,7 +72,6 @@ export default {
 }
 .cool{
 
-    background-color: lightgrey;
     border-radius: 4px ;
 }
 
