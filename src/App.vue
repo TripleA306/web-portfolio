@@ -30,9 +30,7 @@ export default {
         }
     },
     methods:{
-      openHomePage: function(){
-        this.$router.push('home');
-      },
+
 
     },
     computed:{

@@ -9,6 +9,15 @@ import VueAxios from 'vue-axios'
 import axios from 'axios'
 //Using vue moment to format dates
 import moment from 'moment';
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
+
+library.add(faLinkedin);
+library.add(faGithub);
+
+Vue.component('font-awesome-icon', FontAwesomeIcon);
 
 //Components
 import home from './components/Home.vue'
