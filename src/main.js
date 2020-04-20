@@ -27,6 +27,7 @@ import cans4cosmoproject from './components/projects/Cans4CosmoProject.vue'
 import cadcaminvaders from './components/projects/CadCamInvaders.vue'
 import fitnesstracker from './components/projects/FitnessTracker.vue'
 import opponentmatcher from './components/projects/OpponentMatcher.vue'
+import Battleship from "./components/projects/Battleship";
 
 Vue.use(moment);
 Vue.use(VueAxios,axios);
@@ -34,6 +35,7 @@ Vue.use(Vuelidate);
 Vue.use(VueRouter);
 Vue.use(BootstrapVue);  // Install BootstrapVue
 Vue.use(IconsPlugin); // Install IconsPlugin to be used for Bootstrap classes
+
 
 
 //Specifying global variables used for axios calls
@@ -59,6 +61,7 @@ const routes = [
   {path: '/portfolio/cadcaminvaders', component: cadcaminvaders},
   {path: '/portfolio/fitnesstracker', component: fitnesstracker},
   {path: '/portfolio/opponentmatcher', component: opponentmatcher},
+  {path: '/portfolio/battleship', component: Battleship}
 ];
 
 const router = new VueRouter({

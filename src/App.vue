@@ -1,17 +1,23 @@
 <template >
-  <b-container class="cool" >
-      <b-navbar class="cool">
-          <b-navbar-brand tag="h1"  >Aaron Atkinson</b-navbar-brand>
+  <b-container class="cool" style="width: 100%" >
+      <b-navbar class="">
+          <b-navbar-brand fluid tag="h1" style="font-size: xx-large">Aaron Atkinson</b-navbar-brand>
           <b-navbar-nav>
-              <b-nav-item to="/">Home</b-nav-item>
-              <b-nav-item to="/resume">Resume</b-nav-item>
-              <b-nav-item to="/portfolio">Portfolio</b-nav-item>
+              <b-nav-item style="font-size: x-large" to="/">Home</b-nav-item>
+              <b-nav-item style="font-size: x-large" to="/resume">Resume</b-nav-item>
+              <b-nav-item style="font-size: x-large" to="/portfolio">Portfolio</b-nav-item>
           </b-navbar-nav>
       </b-navbar>
       <transition name="fade" mode="out-in">
             <router-view class="routerView"/>
       </transition>
 
+
+      <footer style="margin-top: 2em;  display: flex; flex-direction: row; align-items: center; text-align: center">
+          <font-awesome-icon  class="pointer"  @click="testLK" size="4x" :icon="['fab', 'linkedin']"/>
+          <font-awesome-icon  class="pointer" @click="testGT" size="4x" :icon="['fab', 'github']"/>
+          <p style="padding-left: 2em">Created by Aaron Atkinson (2020)</p>
+      </footer>
   </b-container>
 </template>
 
@@ -30,7 +36,12 @@ export default {
         }
     },
     methods:{
-
+        testLK : function () {
+            window.location.assign("https://www.linkedin.com/in/aaron-atkinson2292/");
+        },
+        testGT : function () {
+            window.location.assign("https://github.com/TripleA306/");
+        },
 
     },
     computed:{
@@ -53,6 +64,7 @@ export default {
 
 <style>
 
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -62,6 +74,10 @@ export default {
   margin-top: 60px;
     overflow: hidden;
     width: 100vw;
+}
+
+.fancyFont{
+    font-family: 'Fira Sans', sans-serif;
 }
 
 .routerView{
@@ -81,5 +97,9 @@ export default {
 .fade-enter, .fade-leave-to
     /* .component-fade-leave-active below version 2.1.8 */ {
     opacity: 0;
+}
+
+.pointer{
+    cursor: pointer;
 }
 </style>

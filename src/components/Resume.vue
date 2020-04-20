@@ -1,8 +1,8 @@
 <template>
-    <b-container fluid>
+    <b-container fluid style="margin: 1em">
         <b-jumbotron header="Resume" class="shadow-sm "></b-jumbotron>
         <b-row >
-            <b-col col >
+            <b-col class="col-md-6 col-sm-12">
                 <h1>Skills</h1>
                 <b-card v-for="skill in skills" v-bind:key="skill.id" class="shadow-sm ">
                     <b-card-title>{{skill.name}}</b-card-title>
@@ -13,7 +13,7 @@
                     </b-card-text>
                 </b-card>
             </b-col>
-            <b-col col >
+            <b-col >
                 <h1>Education</h1>
                 <b-card v-for="edu in education" v-bind:key="edu.id" class="shadow-sm ">
                     <b-card-sub-title>{{edu.year}}</b-card-sub-title>

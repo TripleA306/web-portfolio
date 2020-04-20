@@ -9,9 +9,6 @@
         <b-img v-bind:src="project.image[3]"></b-img>
         <b-img v-bind:src="project.image[4]"></b-img>
         <b-img v-bind:src="project.image[5]"></b-img>
-
-
-
     </b-container>
 </template>
 
