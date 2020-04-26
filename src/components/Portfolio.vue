@@ -1,25 +1,22 @@
 <template>
     <b-container fluid style="margin: 1em">
         <b-jumbotron header="Portfolio" class="shadow-sm "/>
-        <h1>Here are some noteworthy projects!</h1>
         <b-container align="center">
         <b-card style=" margin-top: 1rem; max-width: 75%;" class="shadow">
             <b-media >
-
                     <b-img rounded="left" fluid-grow style="max-width: 10em" :src="clientProject.image"></b-img>
-
                 <b-card-title>{{clientProject.name}}</b-card-title>
                 <b-card-text>{{clientProject.description}}</b-card-text>
                 <b-button v-bind:to="clientProject.title" variant="dark">More details</b-button>
             </b-media>
         </b-card>
         </b-container>
-        <b-row class="mb-2" align-h="around" style="padding: 1em" >
-        <b-card style="max-width: 23rem; margin-top: 1rem;"  v-for="pj in projects" v-bind:key="pj.id" class="shadow" >
+        <b-row class="mb-2" align-h="around" align="center"  >
+        <b-card style="min-width: 20em; max-width: 20rem; margin-top: 1rem; margin-left: 0.5rem; margin-right: 0.5rem;"  v-for="pj in projects" v-bind:key="pj.id" class="shadow" >
             <b-media>
-                <template v-slot:aside >
+<!--                <template v-slot:aside >-->
                     <b-img rounded="left" fluid-grow style="max-width: 10em" :src="pj.image"></b-img>
-                </template>
+<!--                </template>-->
                 <b-card-title style="min-width: 10em;" >{{pj.name}}</b-card-title>
                 <b-card-text>{{pj.description}}</b-card-text>
                 <b-button v-bind:to="pj.title" variant="dark">More details</b-button>
@@ -84,7 +81,7 @@
                         name: "Command Line Battleship",
                         description: "Sink all the ships, with a commandline take on a classic game!",
                         image: battleImg
-                    }
+                    },
 
                 ]
 

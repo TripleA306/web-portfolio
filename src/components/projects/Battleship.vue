@@ -2,7 +2,7 @@
     <b-container fluid>
         <b-jumbotron v-bind:header="project.name" />
         <b-container class="overflow-hidden">
-        <iframe scrolling="no" frameborder="0" width="35%" height="500px" src="https://Command-line-Battleship.aaronatkinson.repl.run" />
+        <iframe scrolling="no" frameborder="0" width="100%" height="500px" src="https://Command-line-Battleship.aaronatkinson.repl.run" />
         </b-container>
 
         <b-button to="/portfolio">Go back</b-button>
