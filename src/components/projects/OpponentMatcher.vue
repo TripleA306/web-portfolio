@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid>
+    <b-container fluid style="margin: 1em">
         <b-jumbotron fluid header-level="3"  v-bind:header="project.name" />
         <b-button to="/portfolio">Go back</b-button>
 

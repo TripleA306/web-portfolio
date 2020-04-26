@@ -2,7 +2,7 @@
     <b-container fluid style="margin: 1em">
         <b-jumbotron fluid header-level="3" header="Portfolio" class="shadow-sm "/>
         <b-container align="center">
-        <b-card style=" margin-top: 1rem; max-width: 75%;" class="shadow">
+        <b-card style=" margin-top: 1rem; max-width: 100%;" class="shadow">
             <b-media >
                     <b-img rounded="left" fluid-grow style="max-width: 10em" :src="clientProject.image"></b-img>
                 <b-card-title>{{clientProject.name}}</b-card-title>
@@ -24,7 +24,6 @@
         </b-card>
         </b-row>
     </b-container>
-
 </template>
 
 
