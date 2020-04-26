@@ -51,11 +51,6 @@
                         id:2,
                         title: "Interests",
                         content: ""
-                    },
-                    {
-                        id:3,
-                        title: "Video Games",
-                        content: "Halo"
                     }
                 ]
             }
