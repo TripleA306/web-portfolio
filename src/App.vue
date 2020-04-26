@@ -3,8 +3,8 @@
 
       <b-navbar toggleable="lg" >
           <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
-          <b-collapse id="nav-collapse" is-nav>
           <b-navbar-brand fluid  tag="h1" style="font-size: xx-large">Aaron Atkinson</b-navbar-brand>
+          <b-collapse id="nav-collapse" is-nav>
           <b-navbar-nav>
               <b-nav-item style="font-size: x-large" to="/">Home</b-nav-item>
               <b-nav-item style="font-size: x-large" to="/resume">Resume</b-nav-item>

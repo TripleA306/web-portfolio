@@ -1,10 +1,10 @@
 <template>
-    <b-container fluid style="margin: 1em">
-        <b-jumbotron fluid header="Resume" class="shadow-sm "></b-jumbotron>
+    <b-container fluid >
+        <b-jumbotron fluid header="Resume" class="shadow-sm"></b-jumbotron>
         <b-row >
-            <b-col class="col-md-6 col-sm-12">
+            <b-col class="col-md-6 col-sm-12 col-12">
                 <h1>Skills</h1>
-                <b-card v-for="skill in skills" v-bind:key="skill.id" class="shadow-sm ">
+                <b-card v-for="skill in skills" v-bind:key="skill.id" class="shadow-sm" style="margin-top: 1rem;">
                     <b-card-title>{{skill.name}}</b-card-title>
                     <b-card-text>
                         <ul v-for="detail in skill.info" v-bind:key="detail">
@@ -15,7 +15,7 @@
             </b-col>
             <b-col >
                 <h1>Education</h1>
-                <b-card v-for="edu in education" v-bind:key="edu.id" class="shadow-sm ">
+                <b-card v-for="edu in education" v-bind:key="edu.id" class="shadow-sm" style="margin-top: 1rem;">
                     <b-card-sub-title>{{edu.year}}</b-card-sub-title>
                     <b-card-title>{{edu.course}}</b-card-title>
                     <b-card-sub-title>{{edu.where}}</b-card-sub-title>
@@ -54,7 +54,7 @@
                         id: 3,
                         name: "Persistence",
                         info:[ "Zero tolerance for failure and am determined to complete a task",
-                            "Any skill or toolset I consider mediocre, I will strive to gain a better understanding and proficiency till I am satisfied with my performance"]
+                            "Any skill or toolset I consider mediocre, I will strive to gain a better understanding and proficiency until I am satisfied with my performance"]
                     }
                 ],
                 education: [
