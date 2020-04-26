@@ -1,23 +1,27 @@
 <template >
   <b-container class="cool" style="width: 100%" >
-      <b-navbar class="">
-          <b-navbar-brand fluid tag="h1" style="font-size: xx-large">Aaron Atkinson</b-navbar-brand>
+
+      <b-navbar toggleable="lg" >
+          <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+          <b-collapse id="nav-collapse" is-nav>
+          <b-navbar-brand fluid  tag="h1" style="font-size: xx-large">Aaron Atkinson</b-navbar-brand>
           <b-navbar-nav>
               <b-nav-item style="font-size: x-large" to="/">Home</b-nav-item>
               <b-nav-item style="font-size: x-large" to="/resume">Resume</b-nav-item>
               <b-nav-item style="font-size: x-large" to="/portfolio">Portfolio</b-nav-item>
           </b-navbar-nav>
+          </b-collapse>
       </b-navbar>
       <transition name="fade" mode="out-in">
             <router-view class="routerView"/>
       </transition>
 
 
-      <footer style="margin-top: 2em;  display: flex; flex-direction: row; align-items: center; text-align: center">
+      <b-container style="margin-top: 2em;  display: flex; flex-direction: row; align-items: center; text-align: center">
           <font-awesome-icon  class="pointer"  @click="testLK" size="4x" :icon="['fab', 'linkedin']"/>
           <font-awesome-icon  class="pointer" @click="testGT" size="4x" :icon="['fab', 'github']"/>
           <p style="padding-left: 2em">Created by Aaron Atkinson (2020)</p>
-      </footer>
+      </b-container>
   </b-container>
 </template>
 

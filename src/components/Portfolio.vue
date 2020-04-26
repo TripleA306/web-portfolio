@@ -1,6 +1,6 @@
 <template>
     <b-container fluid style="margin: 1em">
-        <b-jumbotron header="Portfolio" class="shadow-sm "/>
+        <b-jumbotron fluid header-level="3" header="Portfolio" class="shadow-sm "/>
         <b-container align="center">
         <b-card style=" margin-top: 1rem; max-width: 75%;" class="shadow">
             <b-media >

@@ -1,6 +1,6 @@
 <template>
     <b-container fluid>
-        <b-jumbotron v-bind:header="project.name" />
+        <b-jumbotron fluid header-level="3"  v-bind:header="project.name" />
         <b-container class="overflow-hidden">
         <iframe scrolling="no" frameborder="0" width="100%" height="500px" src="https://Command-line-Battleship.aaronatkinson.repl.run" />
         </b-container>

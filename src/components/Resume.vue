@@ -1,6 +1,6 @@
 <template>
     <b-container fluid style="margin: 1em">
-        <b-jumbotron header="Resume" class="shadow-sm "></b-jumbotron>
+        <b-jumbotron fluid header="Resume" class="shadow-sm "></b-jumbotron>
         <b-row >
             <b-col class="col-md-6 col-sm-12">
                 <h1>Skills</h1>

@@ -1,6 +1,6 @@
 <template>
     <b-container fluid>
-        <b-jumbotron v-bind:header="project.name" />
+        <b-jumbotron fluid header-level="3"  v-bind:header="project.name" />
         <b-button to="/portfolio">Go back</b-button>
         <b-img :src="project.image[0]"></b-img>
         <b-img :src="project.image[1]"></b-img>
