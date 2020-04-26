@@ -84,10 +84,7 @@ export default {
     font-family: 'Fira Sans', sans-serif;
 }
 
-.routerView{
-    margin-right: 80px;
-    margin-left: 80px;
-}
+
 .cool{
 
     border-radius: 4px ;

@@ -30,11 +30,11 @@
             <b-col>
                 <b-card>
                     <h1 class="cardFont">Details</h1>
-                    <p class="cardFont">This project was created in Java by myself and Bubba Chabot</p>
-                    <p class="cardFont">It was a simple 2D shooter that would require the player to shoot flying saucers to progress to the next stage</p>
-                    <p class="cardFont">Each stage would increase the spawn count and movement speed of the enemies</p>
-                    <p class="cardFont">The game would end if you somehow beat level 10 or if a saucer made it to the bottom of the screen</p>
-                    <p class="cardFont">The GameOver screen would loop through the complete animation of the Doomguy sprites (my favourite part of the project)</p>
+                    <p class="cardFont">This project was created in Java by myself and Bubba Chabot.</p>
+                    <p class="cardFont">It was a simple 2D shooter that would require the player to shoot flying saucers to progress to the next stage.</p>
+                    <p class="cardFont">Each stage would increase the spawn count and movement speed of the enemies.</p>
+                    <p class="cardFont">The game would end if you somehow beat level 10 or if a saucer made it to the bottom of the screen.</p>
+                    <p class="cardFont">The GameOver screen would loop through the complete animation of the Doomguy sprites (my favourite part of the project).</p>
                 </b-card>
             </b-col>
         </b-row>

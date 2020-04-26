@@ -30,12 +30,12 @@
             <b-col>
                 <b-card>
                     <h1 class="cardFont">Details</h1>
-                    <p class="cardFont">This project was created with Xamarin</p>
-                    <p class="cardFont">This multiplatform app would track your tabletop game matches</p>
-                    <p class="cardFont">An opponent would first need to be added to the app</p>
-                    <p class="cardFont">Upon tapping their name, you could log the game played, date, if you won, and any additional comments</p>
-                    <p class="cardFont">A games section would list number of games available and the number of games played for each</p>
-                    <p class="cardFont">The settings menu was used to clear the information stored on the app</p>
+                    <p class="cardFont">This project was created with Xamarin.</p>
+                    <p class="cardFont">This multiplatform app would track your tabletop game matches.</p>
+                    <p class="cardFont">An opponent would first need to be added to the app.</p>
+                    <p class="cardFont">Upon tapping their name, you could log the game played, date, if you won, and any additional comments.</p>
+                    <p class="cardFont">A games section would list number of games available and the number of games played for each.</p>
+                    <p class="cardFont">The settings menu was used to clear the information stored on the app.</p>
                 </b-card>
             </b-col>
         </b-row>
