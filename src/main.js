@@ -54,7 +54,9 @@ Vue.filter('formatDate', function (value) {
 Vue.config.productionTip = false;
 
 const routes = [
-  {path: '/', component: home},
+  {path: '*',
+    name: 'catchAll',
+    component: home},
   {path: '/resume', component: resume},
   {path: '/portfolio', component: portfolio},
   {path: '/portfolio/cans4cosmoproject', component: cans4cosmoproject},
@@ -66,6 +68,7 @@ const routes = [
 
 const router = new VueRouter({
   routes,
+
   //mode: 'history' //might break stuff later
 });
 
