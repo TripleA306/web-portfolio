@@ -32,7 +32,7 @@
                     <h1 class="cardFont">Details</h1>
                     <p class="cardFont">This project was build with a ASP .Net Core back-end and using Vue.js as the front-end.</p>
                     <p class="cardFont">Upon visiting the website for the first time, the user would login with their google account to sign up for deposits.</p>
-                    <p class="cardFont">The user would be directed to their own home page where they can view their next collection dates and their completed collections.</p>
+                    <p class="cardFont">The user will be directed to their own home page where they can view their next collection dates and their completed collections.</p>
                     <p class="cardFont">An administrator site was made for displaying the regions, routes, and subscribers that were stored on the database.</p>
                     <p class="cardFont">From there you were able to create, edit, and delete each object that was stored. Also, you could download a csv file containing subscriber information associated with a particular route.</p>
                 </b-card>
