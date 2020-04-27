@@ -1,7 +1,7 @@
 <template>
     <b-container fluid >
         <b-jumbotron fluid header-level="4"  v-bind:header="project.name" />
-        <b-button to="/portfolio">Go back</b-button>
+        <b-button to="/portfolio" variant="dark">Go back</b-button>
         <b-row style="margin-top: 1rem">
             <b-col class="col-md-6 col-sm-12 col-12" style="width: 50%">
                 <b-carousel
@@ -31,7 +31,10 @@
                 <b-card>
                     <h1 class="cardFont">Details</h1>
                     <p class="cardFont">This project was build with a ASP .Net Core back-end and using Vue.js as the front-end.</p>
-                    <p class="cardFont"></p>
+                    <p class="cardFont">Upon visiting the website for the first time, the user would login with their google account to sign up for deposits.</p>
+                    <p class="cardFont">The user would be directed to their own home page where they can view their next collection dates and their completed collections.</p>
+                    <p class="cardFont">An administrator site was made for displaying the regions, routes, and subscribers that were stored on the database.</p>
+                    <p class="cardFont">From there you were able to create, edit, and delete each object that was stored. Also, you could download a csv file containing subscriber information associated with a particular route.</p>
                 </b-card>
             </b-col>
         </b-row>
@@ -39,7 +42,14 @@
 </template>
 
 <script>
-    import Cans4Cosmo from "../../assets/images/cans4cosmo_logo.png";
+    import completed from "../../assets/images/cosmoImg/completed.jpg"
+    import login from "../../assets/images/cosmoImg/login.jpg"
+    import nextDate from "../../assets/images/cosmoImg/nextDates.jpg"
+    import noRegion from "../../assets/images/cosmoImg/noRegionTable.jpg"
+    import regionTable from "../../assets/images/cosmoImg/regionTable.jpg"
+    import routeTable from "../../assets/images/cosmoImg/routestable.jpg"
+    import subTable from "../../assets/images/cosmoImg/subtable.jpg"
+
     export default {
         name: "Cans4CosmoProject",
         data:function()
@@ -53,10 +63,42 @@
                         description: "I made this",
                         image: [
                             {
-                                id: 1,
-                                caption: "Home Screen",
-                                img: Cans4Cosmo
-                            }]
+                                id: 2,
+                                caption: "",
+                                img: login
+                            },
+                            {
+                                id: 3,
+                                caption: "",
+                                img: nextDate
+                            },
+                            {
+                                id: 4,
+                                caption: "",
+                                img: completed
+                            },
+                            {
+                                id: 5,
+                                caption: "",
+                                img: noRegion
+                            },
+                            {
+                                id: 6,
+                                caption: "",
+                                img: regionTable
+                            },
+                            {
+                                id: 7,
+                                caption: "",
+                                img: routeTable
+                            },
+                            {
+                                id: 8,
+                                caption: "",
+                                img: subTable
+                            },
+
+                            ]
 
                     }
 
@@ -67,5 +109,7 @@
 </script>
 
 <style scoped>
-
+    .cardFont{
+        font-family: 'Avenir', Helvetica, Arial, sans-serif
+    }
 </style>

@@ -78,7 +78,7 @@
                         id: 5,
                         title: "portfolio/battleship",
                         name: "Command Line Battleship",
-                        description: "Sink all the ships, with a commandline take on a classic game!",
+                        description: "Sink all the ships, with a command line take on a classic game!",
                         image: battleImg
                     },
 
