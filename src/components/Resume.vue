@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid >
+    <b-container fluid style="width: 100%">
         <b-jumbotron fluid header="Resume" class="shadow-sm"></b-jumbotron>
         <b-row >
             <b-col class="col-md-6 col-sm-12 col-12">

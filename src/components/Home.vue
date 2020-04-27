@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid >
+    <b-container fluid style="width: 100%">
         <b-jumbotron fluid header-level="4"  header="Hi! I'm Aaron Atkinson" class="shadow-sm">A computer programmer.</b-jumbotron>
         <div v-for="s in section" v-bind:key="s.id">
             <b-card v-if="s.id === 2" style="background-color: #e9ecef; border-radius: 0.5em; border-color: #e9ecef" >

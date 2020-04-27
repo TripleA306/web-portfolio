@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid >
+    <b-container fluid style="width: 100%">
         <b-jumbotron fluid header-level="3" header="Portfolio" class="shadow-sm "/>
         <b-container align="center">
         <b-card style=" margin-top: 1rem; max-width: 100%; min-width: 100%; " class="shadow">

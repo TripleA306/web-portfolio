@@ -1,5 +1,5 @@
 <template>
-    <b-container fluid >
+    <b-container fluid style="width: 100%" >
         <b-jumbotron fluid header-level="4"  v-bind:header="project.name" />
         <b-button to="/portfolio" variant="dark">Go back</b-button>
 
@@ -12,8 +12,8 @@
                     <h1 class="cardFont">Details</h1>
                     <p class="cardFont">This project was created in Swift.</p>
                     <p class="cardFont">The player is tasked to sink all of the battleships to win the game.</p>
-                    <p class="cardFont">The game had error handling to prevent the player from typing in unexpected rows and columns</p>
-                    <p class="cardFont">Upon sinking all of the ship, you will be congratulated and asked to play again</p>
+                    <p class="cardFont">The game had error handling to prevent the player from typing in unexpected rows and columns.</p>
+                    <p class="cardFont">Upon sinking all of the ship, you will be congratulated and asked to play again.</p>
                     <p class="cardFont">The source code was built with the repl web compiler! Allowing for easy project embedding! Can you sink them all!?</p>
                 </b-card>
             </b-col>
