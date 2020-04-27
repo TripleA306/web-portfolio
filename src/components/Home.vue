@@ -5,7 +5,6 @@
             <b-card v-if="s.id === 2" style="background-color: #e9ecef; border-radius: 0.5em; border-color: #e9ecef" >
                 <b-media >
                     <b-card-title style="font-size: xx-large" class="cardFont">{{s.title}}</b-card-title>
-                    <b-img :src="s.picture"></b-img>
                 </b-media>
             </b-card>
             <b-container fluid>
