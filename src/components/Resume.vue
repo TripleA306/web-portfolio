@@ -41,7 +41,8 @@
                         id: 1,
                         name: "Full Stack Development",
                         info: [ "Developed UI elements that interact with back-end databases using API calls" ,
-                            "Developed methods and queries used to display specific information on front-end"]
+                            "Developed methods and queries used to display specific information on front-end",
+                            "Created exhaustive tests for each new feature to prove their intended functions"]
                     },
                     {
                         id: 2,
@@ -53,7 +54,7 @@
                     {
                         id: 3,
                         name: "Persistence",
-                        info:[ "Zero tolerance for failure and am determined to complete a task",
+                        info:[ "Determined to complete any task requested",
                             "Any skill or toolset I consider mediocre, I will strive to gain a better understanding and proficiency until I am satisfied with my performance"]
                     }
                 ],

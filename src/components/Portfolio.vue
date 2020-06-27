@@ -86,7 +86,7 @@
                         id: 6,
                         title: "portfolio/nhladdin",
                         name : "NHL Stats add-in",
-                        description: "An excel add in for the hockey nuts!",
+                        description: "An Excel add-in for the hockey nuts!",
                         image: nhlAddImg
                     }
 
