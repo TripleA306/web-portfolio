@@ -32,8 +32,8 @@
                     <h1 class="cardFont">Details</h1>
                     <p class="cardFont">This project was created by Jon Ronn and myself with Visual Studio's Office-Addin tools.</p>
                     <p class="cardFont">This Excel add-in will allow you to view information on your favourite NHL teams and players.</p>
-                    <p class="cardFont">Upon loading the add-in into your workbook, you can select an NHl team from a drop-down list. Pressing the 'show team stats' button will create a new spreadsheet with all of the available team information and roster</p>
-                    <p class="cardFont">Clicking on a player on the roster table will create another spreadsheet displaying all of the available stats for that particular player</p>
+                    <p class="cardFont">Upon loading the add-in into your workbook, you can select an NHl team from a drop-down list. Pressing the 'show team stats' button will create a new spreadsheet with all of the available team information and roster.</p>
+                    <p class="cardFont">Clicking on a player on the roster table will create another spreadsheet displaying all of the available stats for that particular player.</p>
                 </b-card>
             </b-col>
         </b-row>
