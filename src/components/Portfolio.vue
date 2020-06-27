@@ -52,6 +52,13 @@
                 },
                 projects: [
                     {
+                        id: 6,
+                        title: "portfolio/nhladdin",
+                        name : "NHL Stats add-in",
+                        description: "An Excel add-in for the hockey nuts!",
+                        image: nhlAddImg
+                    },
+                    {
                         id: 2,
                         title: "portfolio/cadcaminvaders",
                         name: "CADCAM Invaders",
@@ -81,14 +88,8 @@
                         name: "Command Line Battleship",
                         description: "Sink all the ships, with a command line take on a classic game!",
                         image: battleImg
-                    },
-                    {
-                        id: 6,
-                        title: "portfolio/nhladdin",
-                        name : "NHL Stats add-in",
-                        description: "An Excel add-in for the hockey nuts!",
-                        image: nhlAddImg
                     }
+
 
                 ]
 
