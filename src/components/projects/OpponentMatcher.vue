@@ -28,7 +28,7 @@
                 </b-carousel>
             </b-col>
             <b-col>
-                <b-card>
+                <b-card class="shadow">
                     <h1 class="cardFont">Details</h1>
                     <p class="cardFont">This project was created with Xamarin.</p>
                     <p class="cardFont">This multiplatform app would track your tabletop game matches.</p>

@@ -8,7 +8,7 @@
                 <iframe scrolling="no" frameborder="0" width="100%" height="500px" src="https://Command-line-Battleship.aaronatkinson.repl.run" />
             </b-col>
             <b-col>
-                <b-card>
+                <b-card class="shadow">
                     <h1 class="cardFont">Details</h1>
                     <p class="cardFont">This project was created in Swift.</p>
                     <p class="cardFont">The player is tasked to sink all of the battleships to win the game.</p>

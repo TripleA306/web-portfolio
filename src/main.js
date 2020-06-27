@@ -28,6 +28,7 @@ import cadcaminvaders from './components/projects/CadCamInvaders.vue'
 import fitnesstracker from './components/projects/FitnessTracker.vue'
 import opponentmatcher from './components/projects/OpponentMatcher.vue'
 import Battleship from "./components/projects/Battleship";
+import NhlAddin from "./components/projects/NhlAddin";
 
 Vue.use(moment);
 Vue.use(VueAxios,axios);
@@ -62,6 +63,7 @@ const routes = [
   {path: '/portfolio/fitnesstracker', component: fitnesstracker},
   {path: '/portfolio/opponentmatcher', component: opponentmatcher},
   {path: '/portfolio/battleship', component: Battleship},
+  {path: '/portfolio/nhladdin', component: NhlAddin},
   {path: '*',
     name: 'catchAll',
     component: home},

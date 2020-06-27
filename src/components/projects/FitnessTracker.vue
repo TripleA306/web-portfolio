@@ -28,7 +28,7 @@
                 </b-carousel>
             </b-col>
             <b-col>
-                <b-card>
+                <b-card class="shadow">
                     <h1 class="cardFont">Details</h1>
                     <p class="cardFont">This project was created in Android Studio.</p>
                     <p class="cardFont">This simple fitness tracker would help users manage their caloric intake and log their daily workout amounts.</p>

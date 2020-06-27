@@ -28,7 +28,7 @@
                 </b-carousel>
             </b-col>
             <b-col>
-                <b-card>
+                <b-card class="shadow">
                     <h1 class="cardFont">Details</h1>
                     <p class="cardFont">This project was build with a ASP .Net Core back-end and using Vue.js as the front-end.</p>
                     <p class="cardFont">Upon visiting the website for the first time, the user would login with their google account to sign up for deposits.</p>
@@ -112,4 +112,6 @@
     .cardFont{
         font-family: 'Avenir', Helvetica, Arial, sans-serif
     }
+
+
 </style>

@@ -34,6 +34,7 @@
     import Fitnessimg from '../assets/images/fitnessImg/fitnessIcon.png'
     import Oppimg from '../assets/images/oppImg/matcherIcon.png'
     import battleImg from '../assets/images/battleshipImg/commandIcon.png'
+    import nhlAddImg from '../assets/images/nhlAddin/nhlAddLogo.png'
 
     export default {
         name: "Portfolio",
@@ -81,6 +82,13 @@
                         description: "Sink all the ships, with a command line take on a classic game!",
                         image: battleImg
                     },
+                    {
+                        id: 6,
+                        title: "portfolio/nhladdin",
+                        name : "NHL Stats add-in",
+                        description: "An excel add in for the hockey nuts!",
+                        image: nhlAddImg
+                    }
 
                 ]
 

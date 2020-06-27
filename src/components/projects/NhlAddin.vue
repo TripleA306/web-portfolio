@@ -30,11 +30,10 @@
             <b-col>
                 <b-card class="shadow">
                     <h1 class="cardFont">Details</h1>
-                    <p class="cardFont">This project was created in Java by myself and Bubba Chabot.</p>
-                    <p class="cardFont">It was a simple 2D shooter that would require the player to shoot flying saucers to progress to the next stage.</p>
-                    <p class="cardFont">Each stage would increase the spawn count and movement speed of the enemies.</p>
-                    <p class="cardFont">The game would end if you somehow beat level 10 or if a saucer made it to the bottom of the screen.</p>
-                    <p class="cardFont">The GameOver screen would loop through the complete animation of the Doomguy sprites (my favourite part of the project).</p>
+                    <p class="cardFont">This project was created by Jon Ronn and myself with Visual Studio's Office-Addin tools.</p>
+                    <p class="cardFont">This Excel add-in will allow you to view information on your favourite NHL teams and players.</p>
+                    <p class="cardFont">Upon loading the add-in into your workbook, you can select an NHl team from a drop-down list. Pressing the 'show team stats' button will create a new spreadsheet with all of the available team information and roster</p>
+                    <p class="cardFont">Clicking on a player on the roster table will create another spreadsheet displaying all of the available stats for that particular player</p>
                 </b-card>
             </b-col>
         </b-row>
@@ -42,43 +41,41 @@
 </template>
 
 <script>
-    import CADCAMimg from "../../assets/images/CADCAM Invaders.png";
-    import img2 from "../../assets/images/cadcamImg/CADCAM Invaders2.png"
-    import img3 from "../../assets/images/cadcamImg/CADCAM Invaders3.png"
-    import img4 from "../../assets/images/cadcamImg/cadAbout.jpg"
+    import start from "../../assets/images/nhlAddin/nhlStart.png";
+    import oiler from "../../assets/images/nhlAddin/nhlOilersAdd.png";
+    import oilerStat from "../../assets/images/nhlAddin/nhlOilersStats.png";
+    import oilerPlayer from "../../assets/images/nhlAddin/nhlOilersPlayer.png";
 
     export default {
-        name: "CadCamInvaders",
+        name: "NhlAddin",
         data:function()
         {
             return {
                 project:
                     {
-                        id: 2,
-                        name: "CADCAM Invaders",
+                        id: 4,
+                        name: "NHL Stats add-in",
                         image: [
                             {
                                 id: 1,
-                                caption: "Splash Screen",
-                                img: CADCAMimg
+                                img: start
                             },
                             {
                                 id: 2,
-                                caption: "Gameplay",
-                                img: img2
+                                img: oiler
                             },
                             {
                                 id: 3,
-                                caption: "Death Screen with Doomguy",
-                                img: img3
+                                img: oilerStat
                             },
                             {
                                 id: 4,
-                                caption: "About Screen",
-                                img: img4
+                                img: oilerPlayer
                             }]
 
                     }
+
+
             }
         },
     }
