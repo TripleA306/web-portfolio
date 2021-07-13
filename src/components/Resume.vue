@@ -65,6 +65,7 @@
                         course: "Computer Systems Technology Diploma",
                         where: "Saskatchewan Polytechnic, Saskatoon, SK",
                         extras: ["Java, C#, C, ASP.Net Core" ,
+                            "Apache, Bind, LDAP",
                             "Excel" ,
                             "HTML 5, CSS, JS, PHP, Vue.js" ,
                             "SQL, Oracle PL-SQL" ,
