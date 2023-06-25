@@ -20,7 +20,7 @@
       <b-container style="margin-top: 2em;  display: flex; flex-direction: row; align-items: center; text-align: center">
           <font-awesome-icon  class="pointer"  @click="testLK" size="4x" :icon="['fab', 'linkedin']"/>
           <font-awesome-icon  class="pointer" @click="testGT" size="4x" :icon="['fab', 'github']"/>
-          <p style="padding-left: 2em">Created by Aaron Atkinson (2021)</p>
+          <p style="padding-left: 2em">Created by Aaron Atkinson (2023)</p>
       </b-container>
   </b-container>
 </template>

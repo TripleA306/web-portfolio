@@ -53,9 +53,9 @@
                     {
                         id:1,
                         title: "About me",
-                        content: "I'm a life-long computer enthusiast since Windows 3.1, now a IT Support and Programmer " +
-                            "at Wright Construction. Diverse job history from service to the trade industry, exhibiting dedication and perseverance for any task required. " +
-                            "Skilled in Agile Methodologies, C#, and Full-Stack Development.",
+                        content: `I'm a life-long computer enthusiast since Windows 3.1, and currently a Programmer Analyst
+                            at Saskatoon Police Service. Diverse job history from service to the trade industry, exhibiting dedication and perseverance for any task required.
+                            Skilled in Agile Methodologies, C#, and Full-Stack Development.`,
                         picture: aaronPic,
 
                     },
