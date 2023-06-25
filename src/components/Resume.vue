@@ -64,7 +64,7 @@
                         year: 2020,
                         course: "Computer Systems Technology Diploma",
                         where: "Saskatchewan Polytechnic, Saskatoon, SK",
-                        extras: ["Java, C#, C, Perl, ASP.Net Core, PHP" ,
+                        extras: ["Java, C#, C, Perl, Swift, ASP.Net Core, PHP" ,
                             "Apache, Bind, LDAP",
                             "Word, Excel, Access" ,
                             "HTML 5, CSS, JS, Vue.js" ,
